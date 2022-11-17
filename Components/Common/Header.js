@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Script from 'next/script'
-import Head from 'next/head';
 import styles from '../../styles/Header.module.css';
 import logo from '../../public/Images/Logo/logo.png';
 const Header = () => {
-    console.log(styles)
     return (
         <div className={styles.gridContainer}>
             <Script src="https://kit.fontawesome.com/de3d1d0a30.js" crossorigin="anonymous"></Script>

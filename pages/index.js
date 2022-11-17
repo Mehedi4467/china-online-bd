@@ -6,6 +6,7 @@ import logo from '../public/Images/Logo/logo.png';
 export default function Home() {
   return (
    <div>
+   
     {/* <Image
       // loader={myLoader}
       src={logo}
