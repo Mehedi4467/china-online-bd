@@ -5,15 +5,10 @@ import logo from '../public/Images/Logo/logo.png';
 
 export default function Home() {
   return (
-   <div>
-   
-    {/* <Image
-      // loader={myLoader}
-      src={logo}
-      alt="Picture of the author"
-    /> */}
-    hello mehedi
-
+   <div className={styles.gridContainer}>
+      <div className={styles.item1}>menu</div>
+      <div className={styles.item2}>top Body</div>
+      <div className={styles.item3}>main Body</div>
    </div>
   )
 }
