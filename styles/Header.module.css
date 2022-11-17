@@ -1,0 +1,104 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px 25px;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+
+
+  /* search area */
+
+  .headerSearchArea {
+    display: flex;
+    justify-content: center;
+  }
+  .headerSearchArea input {
+    height: 35px;
+    width: 350px;
+    border: 1px solid #d72a4e;
+    border-width: 1px 0 1px 1px;
+    outline: none;
+    padding-left: 10px;
+  }
+
+  .headerIcons{
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+    border: 1px solid #d72a4e;
+    border-width: 1px 1px 1px 0;
+   
+  }
+
+ 
+  .icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d72a4e;
+    height: 31px;
+    cursor: pointer
+
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    background-color: #d72a4e;
+    height: 31px;
+    cursor: pointer
+
+  }
+
+  .headerIcons i {
+    color: white;
+    padding: 5px 8px;
+    font-size: 17px;
+  }
+
+
+  /* user area */
+
+  .userArea{
+   
+
+  }
+  .userAreaIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+   
+  }
+ .userAreaIcons i {
+    color: #d72a4e;
+    font-size: 22px;
+    cursor: pointer;
+ 
+  }
+
+  .cartDiv{
+    position: relative;
+    z-index: 1;
+  }
+  .cartSpan{
+    z-index: -1;
+    font-size: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    background-color: #002c36;
+    position: absolute;
+    top: -13px;
+    left: 18px;
+    border-radius: 100%;
+  }
