@@ -3,19 +3,69 @@
   background-color: green;
 }
 .item2 {
-   grid-area: topBody;
-   background-color: #2196F3;
-  }
-.item3 {
    grid-area: main;
-   background-color: orange;
-}
+   background-color: #e5e5ef;
+  }
+
 
 .gridContainer {
   display: grid;
   grid-template-areas:
-    'menu topBody topBody topBody topBody topBody'
-    'menu main main main main main';
-  gap: 10px;
+    'menu menu menu main main main';
+   
   padding: 10px;
 }
+
+/* main body item  */
+.mainBody{
+  margin: 10px;
+}
+.mainTop{
+  display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.productOptions{
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.productOptions select{
+  width: 167px;
+  height: 30px;
+  border: 1px solid #d72a4e;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.productOptions input{
+  width: 100px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  border: 1px solid #d72a4e;
+  border-radius: 3px;
+}
+
+.productOptions input::placeholder {
+  color: black;
+}
+
+.productOptions button{
+  width: 54px;
+  height: 30px;
+  background-color: #002c36;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #d72a4e;
+}
+
