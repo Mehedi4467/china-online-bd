@@ -5,7 +5,7 @@ import styles from '../../styles/Header.module.css';
 import logo from '../../public/Images/Logo/logo.png';
 const Header = () => {
     return (
-        <div className={styles.gridContainer}>
+        <div className={`${styles.gridContainer} ${styles.sticky}`}>
             <Script src="https://kit.fontawesome.com/de3d1d0a30.js" crossorigin="anonymous"></Script>
 
             {/* logo area  */}

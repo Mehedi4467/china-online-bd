@@ -3,11 +3,14 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import logo from '../public/Images/Logo/logo.png';
 import Footer from '../Components/Common/Footer';
+import MegaMenu from '../Components/MegaMenu';
 
 export default function Home() {
   return (
    <div className={styles.gridContainer}>
-      <div className={styles.item1}>menu</div>
+      <div className={styles.item1}>
+        <MegaMenu></MegaMenu>
+      </div>
       <div className={styles.item2}>
         <div className={styles.mainBody}>
             <div className={styles.mainTop}>

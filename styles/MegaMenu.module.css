@@ -1,0 +1,36 @@
+.MegaMenuContainer{
+    width: 230px;
+    background-color: #fff;
+}
+.menuItems{
+    border-bottom: 1px solid #e5e5ef;
+    
+}
+.menuItem{
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .1s;
+   
+}
+
+.menuItem:hover{
+    transform: translate(1px);
+    overflow: hidden;
+    
+}
+.menuItems:hover{
+    background-color: #e5e5ef;
+}
+
+.menuIcon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menuIcon p{
+    font-size: 13px;
+    font-weight: bold;
+}
