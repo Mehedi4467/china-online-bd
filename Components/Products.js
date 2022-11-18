@@ -1,9 +1,20 @@
 import React from 'react';
-
+import styles from '../styles/Products.module.css';
+import Product from './Product';
 const Products = () => {
     return (
-        <div>
-            products bosy
+        <div className={styles.productBody}>
+            <div className={styles.productContainer}>
+                <Product></Product>
+                <Product></Product>
+                <Product></Product>
+                <Product></Product>
+                <Product></Product>
+                <Product></Product>
+                <Product></Product>
+                <Product></Product>
+                <Product></Product>
+            </div>
         </div>
     );
 };

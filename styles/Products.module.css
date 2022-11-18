@@ -1,0 +1,9 @@
+.productBody{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

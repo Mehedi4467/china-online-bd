@@ -1,6 +1,6 @@
 .item1 { 
   grid-area: menu;
-  background-color: green;
+  /* background-color: green; */
   position: fixed;
   overflow-y: scroll;
   height: 100%;
@@ -20,7 +20,8 @@
 .gridContainer {
   display: grid;
   grid-template-areas:
-    'menu menu menu main main main';
+    'menu main main main main main';
+    grid-template-columns: 230px 5fr;
 }
 
 /* main body item  */
@@ -80,4 +81,5 @@
 .mainProductBody{
   margin: 10px 0;
 }
+
 
