@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css';
 import logo from '../public/Images/Logo/logo.png';
 import Footer from '../Components/Common/Footer';
 import MegaMenu from '../Components/MegaMenu';
+import Products from '../Components/Products';
+import Pagination from '../Components/Common/Pagination';
 
 export default function Home() {
   return (
@@ -40,7 +42,14 @@ export default function Home() {
                   </div>
                 </div>
             </div>
-            <div>main product</div>
+
+
+            <div className={styles.mainProductBody}>
+              <Products></Products>
+              <Pagination></Pagination>
+            </div>
+
+
             <div>
               <Footer></Footer>
             </div>

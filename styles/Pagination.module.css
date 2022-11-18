@@ -1,0 +1,39 @@
+.paginationBody{
+margin: 15px 0;
+}
+.paginationButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.paginationButton button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.paginationButton li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    list-style: none;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.paginationButton>:nth-child(2){
+    background-color: #d72a4e;
+    color: #fff;
+}
+.paginationButton>:nth-child(1) i{
+    color: #e5e5ef;
+}
