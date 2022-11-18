@@ -1,0 +1,75 @@
+.footerItem1{
+    grid-area: logo;
+}
+.footerItem2{
+    grid-area: customer;
+}
+.footerItem3{
+    grid-area: info;
+}
+.footerItem4{
+    grid-area: apps;
+}
+.footerBottom{
+    grid-area: payment;
+}
+
+.footerContainer{
+    display: grid;
+  grid-template-areas:
+    'logo customer info apps'
+    'payment payment payment payment'
+    ;
+   
+  justify-content: space-between;
+  background-color: #fff;
+  border-top: 3px solid #d72a4e;
+  padding: 20px 25px;
+ 
+}
+.logoInfo h6{
+    font-size: 13px;
+ margin-top: 5px;
+ padding-top: 0;
+ margin-left: 15px;
+}
+.logoInfo h5{
+ margin-bottom: 0;
+ padding-bottom: 0;
+}
+
+.footerContainer p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.footerContainer a{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+   
+}
+.footerContainer a:hover{
+    color: #d72a4e;
+   
+}
+.socialIcon{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.paymentLogo{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pymanetImage{
+    width: 638px;
+    height: 40px;
+}
+.copyRight{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
