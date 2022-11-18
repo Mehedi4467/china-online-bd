@@ -5,7 +5,17 @@
     padding: 10px 25px;
     align-items: center;
     justify-content: space-between;
+    z-index: 99999999999999;
     
+  }
+  .gridContainer > .logo{
+    order: 1;
+  }
+  .gridContainer > .headerSearchArea{
+    order: 2;
+  }
+  .gridContainer > .userArea{
+    order: 3;
   }
 
   .sticky {
@@ -105,4 +115,33 @@
     top: -13px;
     left: 18px;
     border-radius: 100%;
+  }
+
+
+  /* media query css */
+
+
+
+  /* for mobile device */
+  @media only screen and (min-width: 360px) and (max-width:  767px) {
+    
+    .gridContainer {
+      grid-template-columns: 1fr 1fr;
+    }
+    .gridContainer > .logo{
+      order: 1;
+    }
+    .gridContainer > .headerSearchArea{
+      order: 3;
+    }
+    .headerSearchArea{
+      margin-top: 5px;
+      position: relative;
+      left: 20%;
+    }
+
+    .gridContainer > .userArea{
+      order: 2;
+    }
+
   }

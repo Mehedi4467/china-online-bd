@@ -9,7 +9,7 @@ const Header = () => {
             <Script src="https://kit.fontawesome.com/de3d1d0a30.js" crossorigin="anonymous"></Script>
 
             {/* logo area  */}
-            <div>
+            <div className={styles.logo}>
                 <Image src={logo} alt='logo'></Image>
             </div>
 
@@ -42,6 +42,10 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+
+
+
+            
         </div>
     );
 };
