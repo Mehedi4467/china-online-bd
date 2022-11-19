@@ -19,9 +19,8 @@ export default function Home() {
       </div>
 
       <div className={styles.item2}>
+        <div className={styles.bgColor}>
         <div className={styles.mainBody}>
-
-
             <div className={styles.mainTop}>
                 <div>
                   <h2>Abb-B2b-285500972361804</h2>
@@ -59,6 +58,7 @@ export default function Home() {
             <div>
               <Footer></Footer>
             </div>
+        </div>
         </div>
       </div>
       <MobileMenu setTaggle={setTaggle} taggle={taggle}></MobileMenu>

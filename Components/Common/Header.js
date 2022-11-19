@@ -25,7 +25,7 @@ const Header = () => {
                 </div>
             </div>
 
-
+ 
             {/* user area  */}
             <div className={styles.userArea}>
                 <div className={styles.userAreaIcons}>

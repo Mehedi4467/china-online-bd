@@ -123,10 +123,11 @@
 
 
   /* for mobile device */
-  @media only screen and (min-width: 360px) and (max-width:  767px) {
+  @media only screen and (max-width:  768px) {
     
     .gridContainer {
       display: flex;
+      padding: 10px 15px;
       justify-content: space-between;
       /* grid-template-columns: 1fr 1fr; */
     }
@@ -137,15 +138,14 @@
       display: none;
       order: 3;
     }
-    /* .headerSearchArea{
-      margin-top: 5px;
-      position: relative;
-      left: 20%;
-    } */
-
     .gridContainer > .userArea{
       order: 2;
     }
+
+  }
+
+
+  @media only screen and (min-width: 769px) and (max-width: 1366px) {
 
   }
 
