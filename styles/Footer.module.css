@@ -18,8 +18,7 @@
     display: grid;
   grid-template-areas:
     'logo customer info apps'
-    'payment payment payment payment'
-    ;
+    'payment payment payment payment';
    
   justify-content: space-between;
   background-color: #fff;
@@ -73,3 +72,19 @@
     gap: 10px;
     justify-content: center;
 }
+
+
+
+ /* for mobile device */
+ @media only screen and (min-width: 360px) and (max-width:  767px) {
+    .footerContainer{
+        display: flex;
+     flex-wrap: wrap;
+    }
+
+    .pymanetImage{
+        width: 500px;
+        height: 30px;
+    }
+
+  }
