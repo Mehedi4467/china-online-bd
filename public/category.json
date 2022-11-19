@@ -1,0 +1,107 @@
+[
+  {
+    "_id": "6377de1e8f92e85f7f00fb45",
+    "name": "Shoes",
+    "icon": "https://i.ibb.co/5280c9s/shoes.webp"
+  },
+  {
+    "_id": "6377de1ed5bbaf84e2f46aab",
+    "name": "Bag",
+    "icon": "https://i.ibb.co/Mndx2jH/bag.webp"
+  },
+  {
+    "_id": "6377de1efe63abf247be1469",
+    "name": "Jewelry",
+    "icon": "https://i.ibb.co/ynDY3k8/jewlery.webp"
+  },
+  {
+    "_id": "6377de1eb86c950f7fed9b1c",
+    "name": "Beauty and personal care",
+    "icon": "https://i.ibb.co/XsMTpQN/Beauty.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "men’s clothing",
+    "icon": "https://i.ibb.co/BHJ2zK3/mens.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "women's clothing",
+    "icon": "https://i.ibb.co/drbHph2/womens.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "baby items",
+    "icon": "https://i.ibb.co/yRB6kc3/baby.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "eyewear",
+    "icon": "https://i.ibb.co/wg263Ct/office.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "office supplies",
+    "icon": "https://i.ibb.co/BBdCVcz/eyewear.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "seasonal products",
+    "icon": "https://i.ibb.co/wcLdSvt/sessonial.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "phone accessories",
+    "icon": "https://i.ibb.co/h82WpD2/phone.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "sports and fitness",
+    "icon": "https://i.ibb.co/R0j0srj/sports.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "entertainment items",
+    "icon": "https://i.ibb.co/6bpcCDy/entertement.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "watches",
+    "icon": "https://i.ibb.co/fSHVvv9/watches.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "automobile items",
+    "icon": "https://i.ibb.co/9vmhSBx/automobiles.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "groceries and pets",
+    "icon": "https://i.ibb.co/sjbG8Xy/pets.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "outdoor and travelling",
+    "icon": "https://i.ibb.co/p3PDyHG/travels.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "electronics and gadgets",
+    "icon": "https://i.ibb.co/VBQvWsh/gadgets.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "home and kitchen",
+    "icon": "https://i.ibb.co/nny5TmZ/home.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "tools and home improvement",
+    "icon": "https://i.ibb.co/RCGv5LQ/tooles.webp"
+  },
+  {
+    "_id": "6377de1e67ccd4683884aff7",
+    "name": "school supplies",
+    "icon": "https://i.ibb.co/qRgjM7N/school.webp"
+  }
+]
