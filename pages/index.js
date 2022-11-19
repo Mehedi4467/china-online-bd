@@ -6,6 +6,7 @@ import Footer from '../Components/Common/Footer';
 import MegaMenu from '../Components/MegaMenu';
 import Products from '../Components/Products';
 import Pagination from '../Components/Common/Pagination';
+import MobileMenu from '../Components/Common/MobileMenu';
 
 export default function Home() {
   return (
@@ -49,12 +50,12 @@ export default function Home() {
               <Pagination></Pagination>
             </div>
 
-
             <div>
               <Footer></Footer>
             </div>
         </div>
       </div>
+      <MobileMenu></MobileMenu>
    </div>
   )
 }
