@@ -134,7 +134,7 @@
 
 /* laptop davice */
 
-@media only screen and (min-width: 769px) and (max-width: 1366px) {
+@media only screen and (min-width: 769px) and (max-width: 1240px) {
   .gridContainer {
     display: grid;
     grid-template-areas:
@@ -149,6 +149,15 @@
     display: inline-block;
    background-color: #e5e5ef;;
    }
+}
+@media only screen and (min-width: 1240px) and (max-width: 1366px) {
+  .gridContainer {
+    display: grid;
+    grid-template-areas:
+      'menu main main main main main';
+      grid-template-columns: 230px 5fr;
+  }
+ 
 }
 
 
