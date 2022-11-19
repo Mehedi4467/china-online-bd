@@ -76,6 +76,14 @@
   }
 
 
+  .optionalSearBar{
+    position: fixed;
+    z-index: 99999999999999;
+    top: 65px;
+    right: 50%;
+    left: 50%;
+  }
+
   /* user area */
 /* 
   .userArea{
@@ -127,7 +135,9 @@
     
     .gridContainer {
       display: flex;
-      padding: 10px 15px;
+      padding-top: 10px;
+     padding-bottom: 50px;
+      /* padding: 10px 15px; */
       justify-content: space-between;
       /* grid-template-columns: 1fr 1fr; */
     }
@@ -146,7 +156,9 @@
 
 
   @media only screen and (min-width: 769px) and (max-width: 1366px) {
-
+    .optionalSearBar{
+      display: none;
+    }
   }
 
 

@@ -3,8 +3,10 @@ import Image from 'next/image';
 import Script from 'next/script'
 import styles from '../../styles/Header.module.css';
 import logo from '../../public/Images/Logo/logo.png';
+import SearchProduct from './SearchProduct';
 const Header = () => {
     return (
+        <>
         <div className={`${styles.gridContainer} ${styles.sticky}`}>
             <Script src="https://kit.fontawesome.com/de3d1d0a30.js" crossorigin="anonymous"></Script>
 
@@ -42,11 +44,13 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-
-
-
-            
         </div>
+
+        <div className={styles.optionalSearBar}>
+                <SearchProduct></SearchProduct>
+        </div>
+        
+        </>
     );
 };
 
