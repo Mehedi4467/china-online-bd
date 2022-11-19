@@ -141,6 +141,9 @@
       'menu main main main main main';
       grid-template-columns: 230px 5fr;
   }
+  /* .item2 {
+    justify-self: center;
+  } */
 
    .bgColor{
     display: inline-block;
@@ -154,6 +157,11 @@
     display: grid;
     grid-template-areas:
       'menu main main main main main';
-      grid-template-columns: 230px 5fr;
+      
   }
+
+  .bgColor{
+    display: inline-block;
+   background-color: #e5e5ef;;
+   }
 }

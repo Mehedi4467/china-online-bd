@@ -19,3 +19,19 @@
     }
     
   }
+
+
+  @media only screen and (min-width: 769px) and (max-width: 1366px) {
+    .productContainer{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+  }
+
+
+  @media only screen and (min-width: 1367px) and (max-width: 1920px) {
+    .productContainer{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+    }
+  }
