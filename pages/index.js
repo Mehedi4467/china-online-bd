@@ -16,13 +16,15 @@ export default function Home() {
       </div>
       <div className={styles.item2}>
         <div className={styles.mainBody}>
+
+
             <div className={styles.mainTop}>
                 <div>
                   <h2>Abb-B2b-285500972361804</h2>
                   <h5>PRODUCTS FROM <span>201</span> ABB-B2B-285500972361804</h5>
                 </div>
                 <div className={styles.productOptions}>
-                  <div>
+                  <div className={styles.selectOptions}>
                     <select>
                           <option value="Default">Default</option>
                           <option value="Price Low To High">Price Low To High</option>

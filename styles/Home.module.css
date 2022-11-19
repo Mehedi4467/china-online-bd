@@ -103,6 +103,29 @@
   .item2 {
     padding-bottom: 72px;
    }
+
+   .mainTop{
+    display: block;
+    text-align: center;
+      padding: 10px 10px;
+  }
+
+  .productOptions{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+.selectOptions{
+  width: 100%;
+  display: block;
+}
+
+.productOptions select{
+  width: 100%;
+
+}
+  
 }
 
 
