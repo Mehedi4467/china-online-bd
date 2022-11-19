@@ -92,7 +92,7 @@
       'main main main main main';
       grid-template-columns:1fr;
   }
-
+  
   .item1 { 
     display: none;
   }

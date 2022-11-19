@@ -12,7 +12,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
 
@@ -25,7 +25,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -34,7 +34,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -43,7 +43,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -52,7 +52,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -61,7 +61,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -70,7 +70,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -79,7 +79,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -88,7 +88,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -97,7 +97,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -106,7 +106,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -115,7 +115,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -124,7 +124,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -133,7 +133,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -142,7 +142,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -151,7 +151,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -160,7 +160,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -169,7 +169,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -178,7 +178,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -187,7 +187,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -196,7 +196,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
            <div className={styles.menuItems}>
@@ -205,7 +205,7 @@ const MegaMenu = () => {
                     <Image width={26} height={26} src={shoes} alt="shoes"></Image>
                     <p>Shoes</p>
                 </div>
-                <i class="fa-solid fa-arrow-right-long"></i>
+                <i className="fa-solid fa-arrow-right-long"></i>
             </div>
           </div>
         </div>

@@ -15,19 +15,19 @@ const Footer = () => {
 
             <div>
                 <div className={styles.logoInfo}>
-                    <h5><i class="fa-solid fa-location-dot"></i> HEAD OFFICE :</h5>
+                    <h5><i className="fa-solid fa-location-dot"></i> HEAD OFFICE :</h5>
                     <h6>House - 29, Road - 11, Sector - 10, Uttara, Dhaka - 1230</h6>
                 </div>
                 <div className={styles.logoInfo}>
-                    <h5><i class="fa-solid fa-location-dot"></i> REGISTERED OFFICE:</h5>
+                    <h5><i className="fa-solid fa-location-dot"></i> REGISTERED OFFICE:</h5>
                     <h6>664, Prembagan, Gawair, Dakshinkhan, Dhaka- 1229</h6>
                 </div>
                 <div className={styles.logoInfo}>
-                    <h5><i class="fa-regular fa-envelope"></i> EMAIL:</h5>
+                    <h5><i className="fa-regular fa-envelope"></i> EMAIL:</h5>
                     <h6>info.chinaonlinebd@gmail.com</h6>
                 </div>
                 <div className={styles.logoInfo}>
-                    <h5><i class="fa-solid fa-phone"></i> PHONE:</h5>
+                    <h5><i className="fa-solid fa-phone"></i> PHONE:</h5>
                     <h6>+8801811677154</h6>
                 </div>
                 

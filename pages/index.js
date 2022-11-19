@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import React, { useState } from 'react';
 import styles from '../styles/Home.module.css';
 import logo from '../public/Images/Logo/logo.png';
 import Footer from '../Components/Common/Footer';
@@ -9,11 +10,14 @@ import Pagination from '../Components/Common/Pagination';
 import MobileMenu from '../Components/Common/MobileMenu';
 
 export default function Home() {
+  const [taggle,setTaggle] =useState(false);
+  console.log(taggle);
   return (
    <div className={styles.gridContainer}>
       <div className={styles.item1}>
         <MegaMenu></MegaMenu>
       </div>
+
       <div className={styles.item2}>
         <div className={styles.mainBody}>
 
@@ -57,7 +61,7 @@ export default function Home() {
             </div>
         </div>
       </div>
-      <MobileMenu></MobileMenu>
+      <MobileMenu setTaggle={setTaggle} taggle={taggle}></MobileMenu>
    </div>
   )
 }
