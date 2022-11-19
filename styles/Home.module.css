@@ -38,6 +38,10 @@
     align-items: center;
 }
 
+.topMainId{
+  color: #d72a4e;
+}
+
 .productOptions{
   display: flex;
   gap: 10px;

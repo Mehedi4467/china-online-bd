@@ -25,7 +25,7 @@ export default function Home() {
             <div className={styles.mainTop}>
                 <div>
                   <h2>Abb-B2b-285500972361804</h2>
-                  <h5>PRODUCTS FROM <span>201</span> ABB-B2B-285500972361804</h5>
+                  <h5>PRODUCTS FROM <span className={styles.topMainId}>201</span> ABB-B2B-285500972361804</h5>
                 </div>
                 <div className={styles.productOptions}>
                   <div className={styles.selectOptions}>

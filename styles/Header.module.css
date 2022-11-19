@@ -126,19 +126,22 @@
   @media only screen and (min-width: 360px) and (max-width:  767px) {
     
     .gridContainer {
-      grid-template-columns: 1fr 1fr;
+      display: flex;
+      justify-content: space-between;
+      /* grid-template-columns: 1fr 1fr; */
     }
     .gridContainer > .logo{
       order: 1;
     }
     .gridContainer > .headerSearchArea{
+      display: none;
       order: 3;
     }
-    .headerSearchArea{
+    /* .headerSearchArea{
       margin-top: 5px;
       position: relative;
       left: 20%;
-    }
+    } */
 
     .gridContainer > .userArea{
       order: 2;
